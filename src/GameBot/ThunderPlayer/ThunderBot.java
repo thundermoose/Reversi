@@ -15,11 +15,11 @@ public class ThunderBot extends GameBot {
         this.setCreator("Thundermoose");
         this.setName("ThunderBot");
         this.setVersion(i);
-	maxIter = 10;
+	maxIter = 40;
 	level = 0;
 	if (i%2==0){
 	    impMinLsize = 1.0677968842632979;
-	    impMaxMinStrengthEnem = 0.9631497758418451;
+	    impMaxMinStrengthEnem = 1.9631497758418451;
 	    impMyPotScore = 0.756886208358836;
 	    impEnemPotScore = 0.9731610639163195;
 	    impRand = 0.9731610639163195;
